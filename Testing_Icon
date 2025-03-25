@@ -1,0 +1,16 @@
+Unit Testing
+Jest with SWC
+Bun
+Vitest
+
+
+Icon Library
+SVGs as JSX
+SVG Sprite
+
+
+Client State Mgmt
+Unidirectional state management (Redux, Zustand)
+Bidirectional state management (MobX)
+Event-based state management (Effector + RxJS)
+Atomic state management (Recoil, Jotai)
