@@ -1,0 +1,41 @@
+## CSS
+Inline Styles
+CSS
+CSS Library (ie. TailwindCSS)
+CSS Modules
+CSS-in-JS (ie. Emotion)
+CSS-in-JS Zero-runtime (ie. vanilla-extract)
+Stencil
+
+XSS security holes
+React Server Components
+Origami Design System
+
+TailWind
+Pros:
+
+it utilizes standard CSS under-the-hood
+it utilizes tooling to automatically prefix, alter, and optimize the CSS
+it is well documented through the standard CSS documentation and the TailwindCSS documentation
+it supports RSCs
+it does not require JS runtime
+it reduces duplication of styles
+it has official NextJS support
+it co-locates the styling in the components, reducing cognitive load
+it is a standard in the industry that many developers will know
+the design system is built into the config, leading to consistent styling
+Cons:
+
+it can lead to cluttered looking JSX
+it adds a required tech/syntax for new developers to learn in order to contribute
+
+
+
+## UI Component Library
+pp-react@v7 - PP design library with no support for RSCs
+pp-react@v8 - PP design library with support for RSCs
+axo-components - no support for RSCs
+Radix - Open Source, has support for RSCs, can utilize TailWind CSS
+shadcn/ui - Built with React and Tailwind meaning there will be little latency lift and lots of reuse
+Existing React Design Systems: nextui, chakra, horizon, material, ant design, etc.
+
