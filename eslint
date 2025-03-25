@@ -1,0 +1,19 @@
+ESLint is a tool used to enforce rules about coding style and potential errors in JavaScript and TypeScript projects.
+
+Strict Ruleset: The team has chosen a more opinionated set of linting rules. This means that the rules are stricter about how the code should be written and which practices are followed.
+
+Common Plugins: In addition to general ESLint rules, several plugins will be added:
+
+next: This ensures that Next.js-specific practices are followed.
+
+next/web-vitals: Ensures that the code adheres to best practices related to web vitals for performance and user experience.
+
+jsx-a11y: Helps ensure that JSX (JavaScript XML used in React) follows accessibility best practices.
+
+storybook: Enforces rules for writing components and stories in Storybook (a tool for building UI components in isolation).
+
+tsdoc: Enforces documentation standards for TypeScript code, making the codebase better documented and easier to maintain.
+
+typescript-eslint: Ensures TypeScript best practices and syntax are followed.
+
+eslint-plugin-unicorn: This is a more opinionated plugin that enforces a set of coding conventions that are often considered best practices. It is more comprehensive and opinionated than basic linting rules and can be seen as a spiritual successor to well-known style guides like Google's or Airbnb's JavaScript style guides. It takes a strong stance on consistency, readability, and optimization of the code.
